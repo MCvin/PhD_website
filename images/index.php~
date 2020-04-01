@@ -1,0 +1,3 @@
+<?php
+header("Location: http://userpages.irap.omp.eu/~mchauvin/");
+?>

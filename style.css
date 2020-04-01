@@ -1,0 +1,258 @@
+/* Eléments principaux de la page */
+ 
+body
+{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #181818;
+}
+ 
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+ 
+section h1, nav a
+{
+    text-transform: uppercase;
+}
+
+header h1, header h2, section h1, section h2
+{
+    font-family: "Times New Roman", serif;
+}
+
+/* Header */
+ 
+header
+{
+    background: url('images/separateur_header.png') repeat-x bottom;
+}
+ 
+#titre_principal
+{
+    display: inline-block;
+    width: 40%;
+}
+ 
+header h1
+{
+    font-size: 1.8em;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+ 
+header h2
+{
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+
+/* Navigation */
+ 
+nav
+{
+    display: inline-block;
+    width: 59%;
+    text-align: right;
+}
+ 
+nav ul
+{
+    list-style-type: none;
+}
+ 
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+ 
+nav a
+{
+    font-size: 1.em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+ 
+nav a:hover
+{
+    color: #2929ff;
+}
+
+
+/* Bannière */
+ 
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/thesis.png') no-repeat center;
+    position: relative;
+    box-shadow: 0px 0px 10px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#CV_image1, #CV_image2
+{
+    margin-top: 15px;
+    height: 1275px;
+    position: relative;
+    box-shadow: 0px 0px 10px #1c1a19;
+    margin-bottom: 15px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.6%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+    background-color: rgba(24,24,24,0.6);
+    color: white;
+    font-size: 0.8em;
+}
+
+.bouton_noir
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/bouton_noir.png') repeat-x;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+ 
+.bouton_noir img
+{
+    border: 0;
+}
+
+
+/* Corps */
+ 
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+ 
+#article_with_aside
+{
+    width: 70%;
+    margin-right: 15px;
+}
+
+article
+{
+    width: 100%;
+}
+ 
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#article_images
+{
+    display: inline-block;
+    width: 250px;
+    float:left;
+}
+
+section h1
+{
+    font-size: 1em;
+}
+
+section h2
+{
+    font-size: 1.1em;
+}
+
+article p
+{
+    font-size: 0.8em;
+    padding-left: 30px;
+}
+
+article ul
+{
+    list-style-type: none;
+    font-size: 0.7em;
+}
+
+aside
+{
+    position: relative;
+    top: 10px;
+    width: 25%;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+ 
+#fleche_bulle
+{
+    position: absolute;
+    top: 50px;
+    left: -12px;
+}
+ 
+#portrait, #download
+{
+    text-align: center;
+}
+ 
+#portrait img
+{
+    border: 1px solid #181818;
+}
+ 
+aside img
+{
+    margin-right: 5px;
+}
+
+aside a
+{
+    color: white;
+}
+
+/* Footer */
+ 
+footer
+{
+    background:  url('images/separateur_footer.png') repeat-x top;
+}
+ 
+#contact
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ 
